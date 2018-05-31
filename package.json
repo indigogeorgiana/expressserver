@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/dev-academy-challenges/express-server#readme",
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "^4.16.3",
     "supertest": "^3.0.0"
   },
   "devDependencies": {
     "jest": "^21.2.1"
-  }
+  },
+  "keywords": []
 }
