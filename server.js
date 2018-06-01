@@ -28,4 +28,13 @@ server.get('/profiles/:id', (req, res) => {
   }
 })
 
+server.post('/named-compliment', (req, res) => {
+  const name = req.body.name
+  if (name === 'silvia') {
+    res.send(`${name} has lovely hair`)
+  } else if (name === 'sampson') {
+    res.send(`${name} is handsome`)
+  }
+})
+
 module.exports = server
