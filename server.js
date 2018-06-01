@@ -37,4 +37,8 @@ server.post('/named-compliment', (req, res) => {
   }
 })
 
+server.get('/', (req, res) => {
+  res.send('So far, so good.')
+})
+
 module.exports = server
